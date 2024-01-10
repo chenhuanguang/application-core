@@ -1,0 +1,46 @@
+<package format="2">
+  <name>apollo-dep</name>
+  <version>local</version>
+  <description>
+    Dreamview or Apollo's HMI module provides a web application that helps developers visualize the output of
+    other relevant autonomous driving modules, e.g. the vehicle's planning trajectory, car localization, chassis status etc.
+  </description>
+
+  <maintainer email="apollo-support@baidu.com">Apollo</maintainer>
+  <license>Apache License 2.0</license>
+  <url type="website">https://www.apollo.auto/</url>
+  <url type="repository">https://github.com/ApolloAuto/apollo</url>
+  <url type="bugtracker">https://github.com/ApolloAuto/apollo/issues</url>
+
+  <type>module</type>
+
+  <depend type="binary" repo_name="common-msgs" lib_names="common-msgs">common-msgs</depend>
+  <depend repo_name="common" type="binary">common</depend>
+  <depend repo_name="cyber" type="binary">cyber</depend>
+  <depend type="binary" repo_name="storytelling" lib_names="storytelling">storytelling</depend>
+  <depend type="binary" repo_name="dreamview" lib_names="dreamview">dreamview</depend>
+  <depend repo_name="external-command-action" type="binary">external-command-action</depend>
+  <depend repo_name="external-command-lane-follow" type="binary">external-command-lane-follow</depend>
+  <depend repo_name="external-command-process" type="binary">external-command-process</depend>
+  <depend repo_name="external-command-processor-base" type="binary">external-command-processor-base</depend>
+  <depend repo_name="external-command-valet-parking" type="binary">external-command-valet-parking</depend>
+  <depend repo_name="routing" type="binary">routing</depend>
+  <depend repo_name="planning" type="binary">planning</depend>
+  <depend type="binary" repo_name="localization" lib_names="localization">localization</depend>
+  <depend type="binary" repo_name="apollo-data" lib_names="apollo-data">apollo-data</depend>
+  <depend repo_name="control-controller-lat-based-lqr-controller" type="binary">control-controller-lat-based-lqr-controller</depend>
+  <depend repo_name="control-controller-lon-based-pid-controller" type="binary">control-controller-lon-based-pid-controller</depend>
+  <depend repo_name="control-controller-mpc-controller" type="binary">control-controller-mpc-controller</depend>
+  <depend repo_name="control" type="binary">control</depend>
+  <!-- transform -->
+  <depend repo_name="transform" type="binary">transform</depend>
+
+  <!-- prediction -->
+  <depend repo_name="prediction" type="binary">prediction</depend>
+
+  <!-- map -->
+  <depend repo_name="map" type="binary">map</depend>
+
+  <src_path url="https://github.com/ApolloAuto/apollo">modules/apollo_dep</src_path>
+
+</package>

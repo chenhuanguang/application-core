@@ -1,0 +1,16 @@
+#pragma once
+
+#include "modules/common/adapters/adapter_gflags.h"
+#include "modules/common/util/message_util.h"
+#include "modules/common/math/polygon2d.h"
+#include "modules/common/util/util.h"
+#include "modules/common/configs/vehicle_config_helper.h"
+#include "modules/common/math/math_utils.h"
+#include "modules/common/math/line_segment2d.h"
+#include "modules/common/math/vec2d.h"
+#include "modules/common/math/box2d.h"
+#include "modules/common/status/status.h"
+#include "modules/common/filters/mean_filter.h"
+#include "modules/common/util/json_util.h"
+#include "modules/common/math/quaternion.h"
+#include "modules/common/math/linear_interpolation.h"
