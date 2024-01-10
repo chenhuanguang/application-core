@@ -14,6 +14,7 @@
 #include "modules/common_msgs/localization_msgs/imu.pb.h"
 #include "modules/common_msgs/localization_msgs/localization.pb.h"
 #include "modules/common_msgs/planning_msgs/navigation.pb.h"
+#include "modules/common_msgs/planning_msgs/sl_boundary.pb.h"
 #include "modules/common_msgs/monitor_msgs/system_status.pb.h"
 #include "modules/common_msgs/perception_msgs/perception_obstacle.pb.h"
 #include "modules/common_msgs/perception_msgs/traffic_light_detection.pb.h"

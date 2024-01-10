@@ -25,6 +25,7 @@ apollo_cc_library(
         "//modules/common_msgs/external_command_msgs:command_status_cc_proto",
         "//modules/common_msgs/external_command_msgs:valet_parking_command_cc_proto",
         "//modules/common_msgs/planning_msgs:planning_command_cc_proto",
+        "//modules/common_msgs/planning_msgs:sl_boundary_cc_proto",
         "//modules/common_msgs/storytelling_msgs:story_cc_proto",
         "//modules/common_msgs/transform_msgs:transform_cc_proto",
         "//modules/common_msgs/sensor_msgs:pointcloud_cc_proto",
